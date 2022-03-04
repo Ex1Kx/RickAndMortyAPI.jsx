@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(22, 21, 21);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1{
+  text-align: center;
+  color: #fff;
+}
+h2{
+  text-align: center;
+  color: #fff;
+}
+h3{
+  text-align: center;
+  color: #fff;
+}
+.cards{
+  text-align: center;
+}
+img{
+  border-radius: 8%;
+  border: #fff;
+}
+button{
+  display: flex;
+  align-items: center;  
+}
+.button3{
+display:inline-block;
+padding:0.3em 1.2em;
+margin:0 0.3em 0.3em 0;
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+background-color:#3f3f3f;
+text-align:center;
+transition: all 0.2s;
+}
+.button3:hover{
+background-color:#3f3f3f;
+}
+@media all and (max-width:30em){
+.button3{
+display:block;
+margin:0.2em auto;
+}
+}
+div{
+  text-align: center;
+}
+.sea{
+  text-align: center; 
 }
