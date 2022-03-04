@@ -32,7 +32,7 @@ export const Posts = () => {
         <>
 		<h1 className='text-getCharacter'>Get A Character :D</h1>
         <h1>From Rick And Morty, Yeah?</h1>
-		<h3>Search Here Pls UwU</h3>
+		<h3>Search Here Plsa UwU</h3>
         <input
           value={search}
           placeholder="Search For Name"
